@@ -2,14 +2,14 @@
 
  ## Configuração do projeto
  ### Inicializão do node
- Quando criar um novo projeto é necessário inicializar o node, o que gera um arquivo chamado "package.json":
+ Quando criar um novo projeto é necessário inicializar o node, o que gera um arquivo chamado "package.json":  
         npm init -y
  ### Configuração do Typescript
-Agora é preciso configurar o node para rodar typescript:
-        npm -D typescript, @types/node
+Agora é preciso configurar o node para rodar typescript:  
+        npm -D typescript, @types/node  
 Inicializar e configurar o package de typescript,irá gerar o arquivo "tsconfig.json":
         npx -init
-        tsc -init
+        tsc -init  
 Deixar o arquivo "tsconfig.json" da seguinte maneira:
         {
             "compilerOptions": {
