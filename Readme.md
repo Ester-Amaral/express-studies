@@ -3,15 +3,22 @@
  ## Configuração do projeto
  ### Inicializão do node
  Quando criar um novo projeto é necessário inicializar o node, o que gera um arquivo chamado "package.json":  
-        npm init -y
+```
+npm init -y
+```
  ### Configuração do Typescript
 Agora é preciso configurar o node para rodar typescript:  
-            npm -D typescript, @types/node  
+```
+npm -D typescript, @types/node  
+```
 Inicializar e configurar o package de typescript,irá gerar o arquivo "tsconfig.json":
-            npx -init
-            tsc -init  
+```
+npx -init
+tsc -init
+```
 Deixar o arquivo "tsconfig.json" da seguinte maneira:
-             {
+```
+            {
                 "compilerOptions": {
                 
                 /* Language and Environment */
@@ -43,16 +50,27 @@ Deixar o arquivo "tsconfig.json" da seguinte maneira:
                 "src","package.json"
             ]
         }
+```
 Para finalizar a configuração do typescript, no arquivo "package.json", na sessão script adiciona a diretiva abaixo:
-        "build":"tsc"
+```
+"build":"tsc"
+```
 Teste as configurações com:
-        npm run build
+```
+npm run build
+```
 ### Configuração do express
 Instale o package express:
-        npm install express
+```
+npm install express
+```
 Agora instale as dependencias express:
-        npm -D nodemon
+```
+npm -D nodemon
+```
 ## Atenção!!!
 Caso o projeto já esteja configurado ou seja clone do github basta utilizar o comando:
-        npm install
+```
+npm install
+```
 Ele instala-rá todos os packages e dependencias do projeto.
