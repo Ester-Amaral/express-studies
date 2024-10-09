@@ -6,13 +6,13 @@
         npm init -y
  ### Configuração do Typescript
 Agora é preciso configurar o node para rodar typescript:  
-        npm -D typescript, @types/node  
+            npm -D typescript, @types/node  
 Inicializar e configurar o package de typescript,irá gerar o arquivo "tsconfig.json":
-        npx -init
-        tsc -init  
+            npx -init
+            tsc -init  
 Deixar o arquivo "tsconfig.json" da seguinte maneira:
-        {
-            "compilerOptions": {
+             {
+                "compilerOptions": {
                 
                 /* Language and Environment */
                 "target": "ESNext",    /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
